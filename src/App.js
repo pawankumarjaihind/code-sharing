@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css'; // Import CSS file for styles
 
-const BASE_URL = "http://localhost:4000"; // Assuming you have defined this environment variable
+const BASE_URL = "https://code-sharing-backend.vercel.app/"; // Assuming you have defined this environment variable
 
 function App() {
   const [message, setMessage] = useState('');
