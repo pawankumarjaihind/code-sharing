@@ -45,6 +45,10 @@ function App() {
     alert('Message copied to clipboard!');
   };
 
+  const clearText = () =? {
+    setMessage('')
+  }
+
   const fetchRecentMessage = async () => {
     try {
       const response = await axios.get(`${BASE_URL}/recent-message`);
@@ -102,6 +106,7 @@ function App() {
       />
       <br />
       <button className="button" onClick={handleSave}>Save Message</button>
+      <button className="button" onClick={clearText}>Clear Message</button>
     </div>
   );
 }
