@@ -105,8 +105,8 @@ function App() {
         cols={50}
       />
       <br />
-      <button className="button" onClick={handleSave}>Save Message</button>
-      <button className="button" onClick={clearText}>Clear Message</button>
+      <button className="button1" onClick={handleSave}>Save Message</button>
+      <button className="button2" onClick={clearText}>Clear Message</button>
     </div>
   );
 }
