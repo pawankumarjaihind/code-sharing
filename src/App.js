@@ -45,8 +45,8 @@ function App() {
     alert('Message copied to clipboard!');
   };
 
-  const clearText = () =? {
-    setMessage('')
+  const clearText = () => {
+    setMessage('');
   }
 
   const fetchRecentMessage = async () => {
